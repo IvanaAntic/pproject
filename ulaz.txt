@@ -1,0 +1,11 @@
+//Definicija vrste proizvoda
+(ukus: 10,miris: 8) -> vino
+(ukus: 10,providnost: 2) -> med
+(ukus: 10, miris: 3) -> caj
+.
+//Opis proizvoda
+vino: * ukus,+ miris = barbera DOC;
+vino: * ukus, * miris = barolodi anata;
+vino: - ukus, / miris = astincky wine;
+med: *ukus, *providnost =accacia honey;
+
